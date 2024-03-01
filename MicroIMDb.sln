@@ -9,6 +9,10 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MicroIMDb.Infrastrcture", "
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MicroIMDb.Application", "..\MicroIMDb.Application\MicroIMDb.Application.csproj", "{D614652F-7F84-4769-8A0B-F6D6BBB7E1C3}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MicroIMDB.DL", "MicroIMDB.DL\MicroIMDB.DL.csproj", "{1E0F7FD8-105A-4FF2-8BA9-601CF05EE5FA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MicroIMDB.BL", "MicroIMDB.BL\MicroIMDB.BL.csproj", "{5E3543D7-4926-4C44-A743-90E1249F7E59}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +31,14 @@ Global
 		{D614652F-7F84-4769-8A0B-F6D6BBB7E1C3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D614652F-7F84-4769-8A0B-F6D6BBB7E1C3}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D614652F-7F84-4769-8A0B-F6D6BBB7E1C3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1E0F7FD8-105A-4FF2-8BA9-601CF05EE5FA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1E0F7FD8-105A-4FF2-8BA9-601CF05EE5FA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1E0F7FD8-105A-4FF2-8BA9-601CF05EE5FA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1E0F7FD8-105A-4FF2-8BA9-601CF05EE5FA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5E3543D7-4926-4C44-A743-90E1249F7E59}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5E3543D7-4926-4C44-A743-90E1249F7E59}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5E3543D7-4926-4C44-A743-90E1249F7E59}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5E3543D7-4926-4C44-A743-90E1249F7E59}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

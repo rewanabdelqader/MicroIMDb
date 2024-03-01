@@ -26,7 +26,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\..\MicroIMDb.Application\MicroIMDb.Application.csproj" />
+    <ProjectReference Include="..\MicroIMDB.BL\MicroIMDB.BL.csproj" />
   </ItemGroup>
 
 </Project>
