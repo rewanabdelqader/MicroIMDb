@@ -70,10 +70,10 @@ Contributions are welcome! Please follow these steps:
 
 **Acknowledgments:**
 
-Thank you to all contributors who helped make this project better.
+Thank you to all the contributors who helped make this project better.
 
 **Contact:**
 
-For any inquiries or feedback, please contact [Your Name] at [Your Email Address].
+For any inquiries or feedback, please contact me at rewanabdelqader@gmail.com.
 
 **Enjoy!**
