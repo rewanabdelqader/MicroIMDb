@@ -19,37 +19,51 @@ microIMDB is a .NET Core 6+ Web API project that enables registered users to log
 - Swagger API documentation support
 - Application of SOLID principles
 
+**API Endpoints:**
+
+- **Authentication:**
+  - `POST /api/auth/login` - Login and receive JWT token
+  - `POST /api/auth/register` - Register a new user
+
+- **Movies:**
+  - `GET /api/movies` - Get all movies
+  - `GET /api/movies/{id}` - Get a specific movie by ID
+  - `POST /api/movies` - Add a new movie (Admin only)
+  - `PUT /api/movies/{id}` - Update a movie (Admin only)
+  - `DELETE /api/movies/{id}` - Soft delete a movie (Admin only)
+
+- **Ratings:**
+  - `POST /api/ratings` - Rate a movie (User only)
+
 **Getting Started:**
 
 1. Clone the repository:
-
-```bash
-git clone <repository-url>
-```
+   ```bash
+   git clone <repository-url>
+   ```
 
 2. Install .NET Core SDK 6+ if not already installed.
 
 3. Configure the database connection string in `appsettings.json`.
 
 4. Run the following commands to apply database migrations:
-
-```bash
-cd microIMDB
-dotnet ef database update
-```
+   ```bash
+   cd microIMDB
+   dotnet ef database update
+   ```
 
 5. Build and run the project:
-
-```bash
-dotnet build
-dotnet run
-```
+   ```bash
+   dotnet build
+   dotnet run
+   ```
 
 6. Access Swagger UI to explore and test API endpoints:
+   ```
+   https://localhost:<port>/swagger
+   ```
 
-```
-https://localhost:<port>/swagger
-```
+7. Use the provided default admin user credentials to log in as an admin.
 
 **Usage:**
 
@@ -65,8 +79,6 @@ Contributions are welcome! Please follow these steps:
 3. Commit your changes: `git commit -am 'Add some feature'`
 4. Push to the branch: `git push origin feature/new-feature`
 5. Submit a pull request.
-
-
 
 **Acknowledgments:**
 
